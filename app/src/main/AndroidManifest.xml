@@ -2,6 +2,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="grzegorz.toolbox">
 
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
+
+    <uses-feature android:name="android.hardware.Sensor" />
+    <uses-feature android:name="android.hardware.SensorManager" />
+    <uses-feature android:name="android.hardware.SensorEvent" />
+    <uses-feature android:name="android.hardware.SensorEventListener2" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
