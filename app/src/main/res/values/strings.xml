@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Toolbox</string>
-    <string name="flashlight">Flashlight</string>
-    <string name="push_this_button">Push this button</string>
+    <string name="flashlight_button">Flashlight</string>
+    <string name="temperature">Temperature:</string>
+    <string name="pressure">Pressure:</string>
+    <string name="humidity">Humidity:</string>
 </resources>
