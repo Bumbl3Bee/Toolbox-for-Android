@@ -12,20 +12,39 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="grzegorz.toolbox.MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/flashlightButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/margin_5"
-        android:text="@string/flashlight"
-        android:textAlignment="center"
-        android:textColor="@color/colorAccent"
-        android:textSize="@dimen/text_20" />
+        android:background="@color/colorAccent"
+        android:text="@string/flashlight_button" />
 
-    <Button
-        android:id="@+id/switchButton"
+    <TextView
+        android:id="@+id/temperature"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_5"
         android:background="@color/colorAccent"
-        android:text="@string/push_this_button" />
+        android:text="@string/temperature"
+        android:textSize="@dimen/text_24" />
+
+    <TextView
+        android:id="@+id/pressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:background="@color/colorAccent"
+        android:text="@string/pressure"
+        android:textSize="@dimen/text_24" />
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:background="@color/colorAccent"
+        android:text="@string/humidity"
+        android:textSize="@dimen/text_24" />
 
 </LinearLayout>
